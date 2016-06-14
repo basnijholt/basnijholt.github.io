@@ -5,7 +5,7 @@ excerpt: "Home"
 sitemap: false
 permalink: /
 header:
-  image: header-Tatacoa.jpg
+  image: header.jpg
 author_profile: true
 
 ---
