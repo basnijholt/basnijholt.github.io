@@ -1,5 +1,5 @@
 ---
-title: "Page Not Found"
+title: ""
 layout: single
 excerpt: "Home"
 sitemap: false
