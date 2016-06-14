@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Bas Nijholt - Welcome"
 title_separator          : "-"
 name                     : "Bas Nijholt"
-description              : "Just a 25 yo PhD student in computational quantum mechanics that likes photography, traveling, machine learning, and programming in Python."
+description              : 
 url                      : "http://www.nijholt.org/" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 gh_repo                  :
@@ -63,10 +63,10 @@ google_ad_slot           :
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "Bas Nijholt"
   avatar           : "bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
+  bio              : "Just a 25 yo PhD student in computational quantum mechanics that likes photography, traveling, machine learning, and programming in Python."
+  location         : "Rotterdam, The Netherlands"
   email            : "basnijholt@gmail.com"
   uri              :
   500px            : "basnijholt"
