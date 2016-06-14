@@ -9,7 +9,7 @@
 locale                   : "en-US"
 title                    : "Site Title"
 title_separator          : "-"
-name                     : "Your Name"
+name                     : "Bas Nijholt"
 description              : "An amazing website."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -67,7 +67,7 @@ author:
   avatar           : "bio-photo.jpg"
   bio              : "I am an amazing person."
   location         : "Somewhere"
-  email            :
+  email            : "basnijholt@gmail.com"
   uri              :
   bitbucket        :
   codepen          :
@@ -75,12 +75,12 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           :
+  github           : "basnijholt"
   google_plus      :
   keybase          :
-  instagram        :
-  lastfm           :
-  linkedin         :
+  instagram        : "bnijholt"
+  lastfm           : "bas116"
+  linkedin         : "bas.nijholt"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
