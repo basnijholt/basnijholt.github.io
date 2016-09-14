@@ -1,0 +1,13 @@
+language: ruby
+rvm:
+  - 2.1
+
+before_script:
+ - chmod +x ./deploy.sh
+ - chmod +x ./compile.sh
+ 
+script: bash ./deploy.sh
+env:
+  global:
+  - ENCRYPTION_LABEL: "99b3921a458e"
+  - COMMIT_AUTHOR_EMAIL: "basnijholt@gmail.com"
