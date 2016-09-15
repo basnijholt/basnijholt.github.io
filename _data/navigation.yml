@@ -1,10 +1,10 @@
 # # main links links
 main:
   - title: "Home"
-    url: /
+    url: http://nijholt.org
 
   - title: "Publications"
-    url: /publications
+    url: http://nijholt.org/publications
 
 #   - title: "Sample Posts"
 #     url: https://mmistakes.github.io/minimal-mistakes/year-archive/
