@@ -137,6 +137,10 @@ exclude:
   - Rakefile
   - README
   - tmp
+  - deploy_key.enc
+  - deploy.sh
+  - compile.sh
+  - CNAME
 keep_files:
   - .git
   - .svn
