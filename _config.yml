@@ -253,6 +253,7 @@ scholar:
   bibtex_filters:
   - superscript
   - latex
+  - markdown
 
   details_dir:    bibliography
   details_layout: bibtex.html
