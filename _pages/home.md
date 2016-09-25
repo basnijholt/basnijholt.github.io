@@ -5,7 +5,7 @@ excerpt: "Home"
 sitemap: false
 permalink: /
 header:
-  image: header.jpg
+  image: images/header.jpg
   caption: "Tatacoa Desert: [**500px**](https://500px.com/basnijholt)"
 author_profile: true
 
