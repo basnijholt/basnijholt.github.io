@@ -70,7 +70,7 @@ social:
 
 # Analytics
 analytics:
-  provider               : false # false (default), "google", "google-universal", "custom"
+  provider               : "google" # false (default), "google", "google-universal", "custom"
   google:
     tracking_id          :
 
@@ -236,7 +236,7 @@ compress_html:
 500px_consumer_key_file: 500px-consumer-key
 
 scholar:
-  style: apa
+  style: _bibliography/authors.csl
   locale: en
 
   sort_by: none

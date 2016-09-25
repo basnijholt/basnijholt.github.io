@@ -1,7 +1,7 @@
 ---
 ---
-{{ reference }}
-
+{{ entry.title }} <br>
+{{ reference }} 
 <p><a href="http://arxiv.org/abs/{{ entry.arxiv }}">arXiv:{{ entry.arxiv }}</a> [<a href="http://arxiv.org/pdf/{{ entry.arxiv }}">pdf</a>], 
 {% if entry.doi %}
 <a href="http://dx.doi.org/{{ entry.doi }}">{{ entry.journal }} <b>{{ entry.volume }}</b>, {{ entry.pages}} ({{ entry.year }})</a>
