@@ -1,11 +1,9 @@
 # Site Settings
 locale                   : "en"
-# title                    : "A quiddity yet to come"
+title                    : "A quiddity yet to come"
 title_separator          : "-"
 name                     : "Bas Nijholt"
-description              : 
 url                      : "http://www.nijholt.org" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "basnijholt/nijholt.org"
 words_per_minute         : 200
 staticman:
@@ -24,12 +22,6 @@ staticman:
       type               : "date"
       options:
         format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
-atom_feed:
-  path                   : # blank (default) uses feed.xml
-
-
-# SEO Related
-google_site_verification :
 
 
 # Analytics
@@ -47,17 +39,11 @@ author:
   location         : "Rotterdam, The Netherlands"
   email            : "basnijholt@gmail.com"
   500px            : "basnijholt"
-  flickr           :
-  facebook         :
   github           : "basnijholt"
   google_scholar   : "nIO4EK4AAAAJ&hl"
   instagram        : "bnijholt"
   lastfm           : "bas116"
   linkedin         : "basnijholt"
-  pinterest        :
-  soundcloud       :
-  stackoverflow    : # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
-
 
 # Reading Files
 include:
