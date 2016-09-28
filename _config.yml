@@ -1,6 +1,6 @@
 # Site Settings
 locale                   : "en"
-title                    : "A quiddity yet to come"
+# title                    : "A quiddity yet to come"
 title_separator          : "-"
 name                     : "Bas Nijholt"
 description              : 
