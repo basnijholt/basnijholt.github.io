@@ -5,5 +5,8 @@ main:
   - title: "Publications"
     url: /publications
 
+  - title: "Photography"
+    url: "/photography"
+
   - title: "Blog"
     url: "http://blog.nijholt.org/"
