@@ -11,7 +11,7 @@ author_profile: true
 
 ---
 
-Hi, my name is Bas. I am a PhD student in theoretical quantum mechanics, Python and open-source enthusiast, and full-time nerd.
+Hi, my name is Bas. I am a PhD student in theoretical quantum mechanics, Python and [open-source](https://github.com/basnijholt) enthusiast, and full-time nerd.
 
 Click [here](https://500px.com/basnijholt) are some pretty pictures that I took, [this](http://quantumtinkerer.tudelft.nl/) is where I work, and see my [LinkedIn](https://www.linkedin.com/in/basnijholt) for some technical details on my life.
 
