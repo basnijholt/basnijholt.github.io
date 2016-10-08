@@ -6,7 +6,6 @@ secure: "Y5iJ+VTC/lCv+NR0GeMO11SkaAW0yA+cRRgiZRWDi3toIuGY+uml6iU9Jr5ZTgXLDWMVtiY
 
 before_script:
  - chmod +x ./deploy.sh
- - chmod +x ./compile.sh
  - echo $API_500px_KEY >> 500px-consumer-key
  
 script: bash ./deploy.sh
