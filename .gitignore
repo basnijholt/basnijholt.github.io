@@ -9,3 +9,4 @@ codekit-config.json
 node_modules
 npm-debug.log*
 500px-consumer-key
+Gemfile.lock
