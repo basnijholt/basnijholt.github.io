@@ -6,7 +6,7 @@
 <p><a href="http://arxiv.org/abs/{{ entry.arxiv }}">arXiv:{{ entry.arxiv }}</a> [<a href="http://arxiv.org/pdf/{{ entry.arxiv }}">pdf</a>]</p>
 {% endif %}
 {% if entry.doi %}
-<p><a href="http://dx.doi.org/{{ entry.doi }}">{{ entry.journal }} <b>{{ entry.volume }}</b>, {{ entry.pages}} ({{ entry.year }})</a></p>
+<p><a href="http://dx.doi.org/{{ entry.doi }}">{{ entry.journal }}{% if entry.volume %} <b>{{ entry.volume }}</b>,{% endif %} {{ entry.pages}} ({{ entry.year }})</a></p>
 {% else %}
 (unpublished)
 {% endif %}
