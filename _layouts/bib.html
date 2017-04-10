@@ -3,11 +3,10 @@
 {{ entry.title }} <br>
 {{ reference }} 
 {% if entry.arxiv %}
-<p><a href="http://arxiv.org/abs/{{ entry.arxiv }}">arXiv:{{ entry.arxiv }}</a> [<a href="http://arxiv.org/pdf/{{ entry.arxiv }}">pdf</a>], 
+<p><a href="http://arxiv.org/abs/{{ entry.arxiv }}">arXiv:{{ entry.arxiv }}</a> [<a href="http://arxiv.org/pdf/{{ entry.arxiv }}">pdf</a>]</p>
 {% endif %}
 {% if entry.doi %}
-<a href="http://dx.doi.org/{{ entry.doi }}">{{ entry.journal }} <b>{{ entry.volume }}</b>, {{ entry.pages}} ({{ entry.year }})</a>
+<p><a href="http://dx.doi.org/{{ entry.doi }}">{{ entry.journal }} <b>{{ entry.volume }}</b>, {{ entry.pages}} ({{ entry.year }})</a></p>
 {% else %}
 (unpublished)
 {% endif %}
-</p>
