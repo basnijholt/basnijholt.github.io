@@ -61,6 +61,7 @@ exclude:
   - deploy.sh
   - compile.sh
   - CNAME
+  - 500px-consumer-key
 keep_files:
   - .git
   - .svn
