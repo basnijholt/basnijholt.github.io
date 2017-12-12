@@ -3,31 +3,17 @@ locale                   : "en"
 title                    : "A quiddity yet to come"
 title_separator          : "-"
 name                     : "Bas Nijholt"
-url                      : "http://www.nijholt.org" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "http://www.nijholt.org"
 repository               : "basnijholt/nijholt.org"
 words_per_minute         : 200
-staticman:
-  allowedFields          : ['name', 'email', 'url', 'message']
-  branch                 : # "master", "gh-pages"
-  commitMessage          : "New comment."
-  filename               : comment-{@timestamp}
-  format                 : "yml"
-  moderation             : true
-  path                   : "_data/comments/{options.slug}"
-  requiredFields         : ['name', 'email', 'message']
-  transforms:
-    email                : "md5"
-  generatedFields:
-    date:
-      type               : "date"
-      options:
-        format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
+
 
 # Analytics
 analytics:
-  provider               : "google-universal" # false (default), "google", "google-universal", "custom"
+  provider               : "google-universal"
   google:
     tracking_id          : "UA-84702771-1"
+
 
 # Site Author
 author:
@@ -42,6 +28,7 @@ author:
   instagram        : "bnijholt"
   lastfm           : "bas116"
   linkedin         : "basnijholt"
+
 
 # Reading Files
 include:
@@ -80,12 +67,14 @@ keep_files:
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
+
 # Conversion
 markdown: kramdown
 highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
 incremental: false
+
 
 # Markdown Processing
 kramdown:
@@ -98,16 +87,19 @@ kramdown:
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
 
+
 # Sass/SCSS
 sass:
   sass_dir: _sass
   style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+
 
 # Outputting
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: "Europe/Amsterdam"
+
 
 # Archives
 category_archive:
@@ -117,6 +109,7 @@ tag_archive:
   type: liquid
   path: /tags/
 
+
 # HTML Compression
 # - http://jch.penibelst.de/
 compress_html:
@@ -124,8 +117,10 @@ compress_html:
   ignore:
     envs: development
 
+
 # 500px
 500px_consumer_key_file: 500px-consumer-key
+
 
 # jekyll-scholar
 scholar:
@@ -137,3 +132,16 @@ theme: "minimal-mistakes-jekyll"
 
 plugins:
   - jekyll-remote-theme
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+
+# mimic GitHub Pages with --safe
+whitelist:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
