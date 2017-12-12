@@ -18,7 +18,7 @@ analytics:
 # Site Author
 author:
   name             : "Bas Nijholt"
-  avatar           : "profile.jpg"
+  avatar           : "images/profile.jpg"
   bio              : "A 26 yo PhD student in computational quantum mechanics that likes photography, traveling, physics, machine learning, and programming in Python."
   location         : "Rotterdam, The Netherlands"
   email            : "basnijholt@gmail.com"
@@ -128,7 +128,9 @@ scholar:
   source: ./_bibliography
   bibliography_template: bib
 
+
 theme: "minimal-mistakes-jekyll"
+
 
 plugins:
   - jekyll-remote-theme
