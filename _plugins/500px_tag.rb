@@ -26,7 +26,9 @@ module Jekyll
       else
         puts "No 500px consumer key found" unless File.exists?(context.registers[:site].config[CONSUMER_KEY_FILE])
         consumer_key = File.read(context.registers[:site].config[CONSUMER_KEY_FILE]).strip
+        puts @photo_id
         photo = fetch_photo(@photo_id, consumer_key)
+
 
         <<-EOF
 <div class="pixels-photo">
