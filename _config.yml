@@ -134,3 +134,6 @@ scholar:
   bibliography_template: bib
 
 theme: "minimal-mistakes-jekyll"
+
+plugins:
+  - jekyll-remote-theme
