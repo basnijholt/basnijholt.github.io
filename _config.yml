@@ -34,6 +34,7 @@ author:
 include:
   - .htaccess
   - _pages
+  - CNAME
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -60,7 +61,6 @@ exclude:
   - tmp
   - deploy.sh
   - compile.sh
-  - CNAME
   - 500px-consumer-key
 keep_files:
   - .git
