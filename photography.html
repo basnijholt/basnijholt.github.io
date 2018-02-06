@@ -1,7 +1,7 @@
 <!doctype html>
 <!--
-  Minimal Mistakes Jekyll Theme 4.8.0 by Michael Rose
-  Copyright 2017 Michael Rose - mademistakes.com | @mmistakes
+  Minimal Mistakes Jekyll Theme 4.9.1 by Michael Rose
+  Copyright 2013-2018 Michael Rose - mademistakes.com | @mmistakes
   Free for personal and commercial use under the MIT license
   https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE.txt
 -->
@@ -9,36 +9,16 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin SEO -->
-
-
-
-
-
-
-
-
-
-<title>  A quiddity yet to come</title>
-
-
-
-
+<!-- begin _includes/seo.html --><title>  A quiddity yet to come</title>
 <meta name="description" content="Photography">
 
 
 
-
-<meta name="author" content="Bas Nijholt">
-
+<meta property="og:type" content="website">
 <meta property="og:locale" content="en">
 <meta property="og:site_name" content="A quiddity yet to come">
 <meta property="og:title" content="A quiddity yet to come">
-
-
-  <link rel="canonical" href="http://www.nijholt.org/photography">
-  <meta property="og:url" content="http://www.nijholt.org/photography">
-
+<meta property="og:url" content="http://www.nijholt.org/photography">
 
 
   <meta property="og:description" content="Photography">
@@ -54,6 +34,7 @@
 
 
 
+<link rel="canonical" href="http://www.nijholt.org/photography">
 
 
 
@@ -67,16 +48,7 @@
 
 
 
-
-
-
-
-
-
-
-
-
-<!-- end SEO -->
+<!-- end _includes/seo.html -->
 
 
 <link href="http://www.nijholt.org/feed.xml" type="application/atom+xml" rel="alternate" title="A quiddity yet to come Feed">
@@ -151,7 +123,7 @@
           
         </ul>
         
-        <button class="greedy-nav__toggle" type="button">
+        <button class="greedy-nav__toggle hidden" type="button">
           <span class="visually-hidden">Toggle Menu</span>
           <div class="navicon"></div>
         </button>
@@ -171,18 +143,23 @@
   <div class="sidebar sticky">
   
 
+
 <div itemscope itemtype="http://schema.org/Person">
 
   
     <div class="author__avatar">
       
-        <img src="http://www.nijholt.org/images/profile.jpg" class="author__avatar" alt="Bas Nijholt" itemprop="image">
+
+      
+        <img src="http://www.nijholt.org/images/profile.jpg" alt="Bas Nijholt" itemprop="image">
       
     </div>
   
 
   <div class="author__content">
-    <h3 class="author__name" itemprop="name">Bas Nijholt</h3>
+    
+      <h3 class="author__name" itemprop="name">Bas Nijholt</h3>
+    
     
       <p class="author__bio" itemprop="description">
         A 26 yo PhD student in computational quantum mechanics that likes photography, traveling, physics, machine learning, and programming in Python.
@@ -195,7 +172,7 @@
     <ul class="author__urls social-icons">
       
         <li itemprop="homeLocation" itemscope itemtype="http://schema.org/Place">
-          <i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> <span itemprop="name">Rotterdam, The Netherlands</span>
+          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name">Rotterdam, The Netherlands</span>
         </li>
       
 
@@ -205,7 +182,7 @@
         <li>
           <a href="mailto:basnijholt@gmail.com">
             <meta itemprop="email" content="basnijholt@gmail.com" />
-            <i class="fa fa-fw fa-envelope-square" aria-hidden="true"></i> Email
+            <i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i> Email
           </a>
         </li>
       
@@ -221,7 +198,7 @@
       
         <li>
           <a href="https://www.linkedin.com/in/basnijholt" itemprop="sameAs">
-            <i class="fa fa-fw fa-linkedin-square" aria-hidden="true"></i> LinkedIn
+            <i class="fab fa-fw fa-linkedin" aria-hidden="true"></i> LinkedIn
           </a>
         </li>
       
@@ -231,7 +208,7 @@
       
         <li>
           <a href="https://instagram.com/bnijholt" itemprop="sameAs">
-            <i class="fa fa-fw fa-instagram" aria-hidden="true"></i> Instagram
+            <i class="fab fa-fw fa-instagram" aria-hidden="true"></i> Instagram
           </a>
         </li>
       
@@ -243,7 +220,7 @@
       
         <li>
           <a href="https://github.com/basnijholt" itemprop="sameAs">
-            <i class="fa fa-fw fa-github" aria-hidden="true"></i> GitHub
+            <i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub
           </a>
         </li>
       
@@ -255,7 +232,7 @@
       
         <li>
           <a href="https://last.fm/user/bas116" itemprop="sameAs">
-            <i class="fa fa-fw fa-lastfm-square" aria-hidden="true"></i> Last.fm
+            <i class="fab fa-fw fa-lastfm-square" aria-hidden="true"></i> Last.fm
           </a>
         </li>
       
@@ -462,21 +439,22 @@
     
     
     
-      <li><a href="https://github.com/basnijholt"><i class="fa fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+      <li><a href="https://github.com/basnijholt"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
     
     
     
-    <li><a href="http://www.nijholt.org/feed.xml"><i class="fa fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    <li><a href="http://www.nijholt.org/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
   </ul>
 </div>
 
-<div class="page__footer-copyright">&copy; 2017 Bas Nijholt. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+<div class="page__footer-copyright">&copy; 2018 Bas Nijholt. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
 
       </footer>
     </div>
 
     
   <script src="http://www.nijholt.org/assets/js/main.min.js"></script>
+  <script src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
 
 
 
